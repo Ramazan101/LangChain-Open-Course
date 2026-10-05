@@ -80,5 +80,3 @@ if ai_response.tool_calls:
 else:
     print("Модель ответила напрямую без вызова инструментов:")
     print(ai_response.content)
-
-
