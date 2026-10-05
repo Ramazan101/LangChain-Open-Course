@@ -11,7 +11,7 @@ load_dotenv() # здесь было ошибка при первом запус�
 
 # 2. Инициализации модели через OpenRouter.
 llm = ChatOpenAI(
-    model="qwen/qwen3.8-27b:free", # Бесплатный модель от OpenAI. Есть другие...
+    model="qwen/qwen3.8-27b:free", # Бесплатный модель от Alibaba. Есть другие...
     api_key=os.getenv("OPENROUTER_API_KEY"),
     base_url="https://openrouter.ai/api/v1",
     max_tokens=1000,
